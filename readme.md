@@ -4,5 +4,5 @@ Markimago allows you to type the image url for your page only in one times, then
 the &lt;img&gt; tag), you could only type the identifier of the image urls you type before. So you don't need to type 
 the image url 2, 3, 4, or more times, just type once, then call the identifiers. Easy and awesome, right?
 
-<br /><br /><br />
+<br />
 Made by : <b>Nathaniel Mannawi</b>
