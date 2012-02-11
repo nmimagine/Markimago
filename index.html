@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Markimago</title>
+            
+            <script type="text/javascript" src="markimago.js"></script>
+            
+            <style type="text/css">
+            body{
+                margin:0px;
+                padding:0px;
+                float:left;
+            }
+            img{
+                width : 300px;
+                height:200px;
+                float:left;
+            }
+            </style>
+        </head>
+        <body>
+            <img name="lake" />
+            <img name="stable" />
+            <img name="sunset" />
+            <img name="tree among water" />
+            
+            <script type="text/javascript">
+                // Image from freephotosbank.com
+                
+                // Create Marker
+                jMark.createMarker({
+                        "lake" : "sample/lake.jpg",
+                        "stable" : "sample/stable.jpg",
+                        "sunset" : "sample/sunset.jpg",
+                        "tree among water" : "sample/tree_lake.jpg"
+                    });
+                // Apply for all image, remove alt attribute, show title
+                jMark.mark({title : true, alt : false});                
+            </script>               
+        </body>
+    </html>
