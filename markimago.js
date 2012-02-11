@@ -5,7 +5,7 @@
  * By : Nathaniel Mannawi (nmimagine)
  * Copyright (c) 2012
  */
-var jMark = {
+var Markimago = {
     createMarker : function(marks){
         this.marks = marks;
     },
@@ -22,7 +22,7 @@ var jMark = {
                 var img = document.getElementsByTagName("img");
                 for(var i = 0; i < img.length; i++){
                     if(img[i].getAttribute("name") == m){
-                        document.getElementsByTagName("img")[i].setAttribute("src", jMark.marks[m]);
+                        document.getElementsByTagName("img")[i].setAttribute("src", Markimago.marks[m]);
                         
                         if(options.alt == true)
                         {
