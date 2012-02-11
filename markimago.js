@@ -1,5 +1,5 @@
 /*
- * jMark
+ * Markimago
  * Loading image easier
  *
  * By : Nathaniel Mannawi (nmimagine)
