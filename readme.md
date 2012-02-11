@@ -33,7 +33,7 @@ Available options:
 </ul>
 <h3>Step 3 : Call bookmark with name property</h3>
 <code><pre>
-	&lt;img name="bookmark name" /&lt;
+	&lt;img name="bookmark name" /&gt;
 </pre></code>
 
 
