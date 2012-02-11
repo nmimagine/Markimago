@@ -15,26 +15,26 @@ the image url 2, 3, 4, or more times, just type once, then call the identifiers.
 </pre>
 
 <h3>Step 2 : Apply to all image</h3>
-<code><pre>
+<pre>
 	Markimago.mark(options);
-</pre></code>
+</pre>
 
 <br />
 Available options:
 <ul>
-	<li><code>title</code> : boolean<br />
+	<li>title : boolean<br />
 		If the value is <b>true</b>, the title property
 		in img tag will automatically generated from
 		bookmark name.</li>
-	<li><code>alt</code> : boolean<br />
+	<li>alt : boolean<br />
 		If the value is <b>true</b>, the alt property
 		in img tag will automatically generated from
 		bookmark name.</li>
 </ul>
 <h3>Step 3 : Call bookmark with name property</h3>
-<code><pre>
+<pre>
 	&lt;img name="bookmark name" /&gt;
-</pre></code>
+</pre>
 
 
 <p>That's all. For example, you can read the <b>index.html</b>
