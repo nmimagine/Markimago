@@ -7,17 +7,17 @@ the image url 2, 3, 4, or more times, just type once, then call the identifiers.
 <h1>Usage</h1>
 
 <h3>Step 1 : Make image url bookmark</h3>
-<pre>
+<pre><code>
 	Markimago.createMarker({
 		"img url bookmark name", "http://example.com/imageurl.png",
 		"other img url bookmark", "http://example.org/otherimage.png"
 	});
-</pre>
+</code></pre>
 
 <h3>Step 2 : Apply to all image</h3>
-<pre>
+<pre><code>
 	Markimago.mark(options);
-</pre>
+</code></pre>
 
 <br />
 Available options:
@@ -32,13 +32,13 @@ Available options:
 		bookmark name.</li>
 </ul>
 <h3>Step 3 : Call bookmark with name property</h3>
-<pre>
+<pre><code>
 	&lt;img name="bookmark name" /&gt;
-</pre>
+</code></pre>
 
 
 <p>That's all. For example, you can read the <b>index.html</b>
-source pre. Thanks!</p>
+source code. Thanks!</p>
 
 <br />
 Made by : <b>Nathaniel Mannawi</b>
