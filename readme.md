@@ -35,7 +35,7 @@ Available options:
 <pre>
 	&lt;img name="bookmark name" /&gt;        
         
-        &lt;a name="bookmark name"&gt;Any Website&lt;/a&gt;
+    &lt;a name="bookmark name"&gt;Any Website&lt;/a&gt;
 </pre>
 
 
