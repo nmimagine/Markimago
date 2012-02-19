@@ -9,10 +9,6 @@ var Markimago = {
     createMarker : function(marks){
         this.marks = marks;
     },
-    ready : function(func){
-        document.addEventListener( "DOMContentLoaded", func, false);
-        window.onload = func;
-    },
     mark : function(options){
         var defaultopt = {alt : true, title : true};
         if(options == null || options == undefined)
@@ -43,6 +39,24 @@ var Markimago = {
                         
                     }
                 }
+                
+                var a = document.getElementsByTagName("a");
+                for(var i = 0; i < a.length; i++){
+                    if(a[i].getAttribute("name") == m){
+                        document.getElementsByTagName("a")[i].setAttribute("href", Markimago.marks[m]);
+                        
+                        if(options.title == true)
+                        {                        
+                            document.getElementsByTagName("a")[i].setAttribute("title", m);
+                        }
+                        else if(options.title == false || options.title == undefined){
+                            document.getElementsByTagName("a")[i].setAttribute("title", "");
+                        }                        
+                    }
+                    else{
+                        
+                    }
+                }                
             }
     }
 };
