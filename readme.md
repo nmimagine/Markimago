@@ -33,9 +33,7 @@ Available options:
 </ul>
 <h3>Step 3 : Call bookmark with name property</h3>
 <pre>
-	&lt;img name="bookmark name" /&gt;
-        
-        <br /><br />
+	&lt;img name="bookmark name" /&gt;        
         
         &lt;a name="bookmark name"&gt;Any Website&lt;/a&gt;
 </pre>
