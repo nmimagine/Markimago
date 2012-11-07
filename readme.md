@@ -1,20 +1,22 @@
 <h1>Markimago - Linked Easily</h1>
 
-Markimago allows you to type image path and webpage urls for your page only in one time. Then, when you want to apply it with
-image or anchor tag, you could only type the identifier of the image urls you type before. So you don't need to type 
-the url 2, 3, 4, or more times, just type once time, then call the bookmark. Easy and awesome, right?
+Markimago allows you to LOAD RESOURCES for your page only in one time. Then, when you want to apply them with
+THEIR TAGS, you could only type the bookmark name you defined before. So you don't need to type 
+the urls 2, 3, 4, or more times, just type it once time, then call the bookmark. Simply awesome.
 
 <h1>Usage</h1>
 
 <h3>Step 1 : Make the bookmarks</h3>
 <pre>
 	Markimago.createMarker({
-		"img url bookmark name", "http://example.com/imageurl.png",
-		"webpage url", "http://example.org/"
+		"img url bookmark name" : "http://example.com/imageurl.png",
+		"webpage url" : "http://example.org/",
+                "jsfile" : "http://example.org/example.js",
+                "cssfile" : "http://example.org/example.css"
 	});
 </pre>
 
-<h3>Step 2 : Apply to all image and anchor elements</h3>
+<h3>Step 2 : Apply to all ELEMENTS which are supported =P</h3>
 <pre>
 	Markimago.mark(options);
 </pre>
@@ -36,6 +38,8 @@ Available options:
 	&lt;img name="bookmark name" /&gt;        
         
     &lt;a name="bookmark name"&gt;Any Website&lt;/a&gt;
+    &lt;script name="bookmark name"&gt;&lt;/script&gt;
+    &lt;link rel="linkrel" name="bookmark name" type="linktype"/&gt;
 </pre>
 
 

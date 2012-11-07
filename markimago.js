@@ -1,6 +1,6 @@
 /*
  * Markimago
- * Loading image easier
+ * Simplified RESOURCES loader
  *
  * By : Nathaniel Mannawi (nmimagine)
  * Copyright (c) 2012
@@ -16,7 +16,7 @@ var Markimago = {
             
             for(var m in this.marks){            
                 var img = document.getElementsByTagName("img");
-                for(var i = 0; i < img.length-1; i++){
+                for(var i = 0; i < img.length; i++){
                     if(img[i].getAttribute("name") == m){
                         document.getElementsByTagName("img")[i].setAttribute("src", Markimago.marks[m]);
                         
@@ -41,7 +41,7 @@ var Markimago = {
                 }
                 
                 var a = document.getElementsByTagName("a");
-                for(var i = 0; i < a.length-1; i++){
+                for(var i = 0; i < a.length; i++){
                     if(a[i].getAttribute("name") == m){
                         document.getElementsByTagName("a")[i].setAttribute("href", Markimago.marks[m]);
                         
@@ -59,7 +59,7 @@ var Markimago = {
                 }
                 
                 var script = document.getElementsByTagName("script");
-                for(var i = 0; i < script.length-1; i++){
+                for(var i = 0; i < script.length; i++){
                     if(script[i].getAttribute("name") == m){
                         document.getElementsByTagName("script")[i].setAttribute("src", Markimago.marks[m]);
                         document.getElementsByTagName("script")[i].setAttribute("type", "text/javascript");
@@ -70,7 +70,7 @@ var Markimago = {
                 }
                 
                 var link = document.getElementsByTagName("link");
-                for(var i = 0; i < link.length-1; i++){
+                for(var i = 0; i < link.length; i++){
                     if(link[i].getAttribute("name") == m){
                         document.getElementsByTagName("link")[i].setAttribute("href", Markimago.marks[m]);
                     }
