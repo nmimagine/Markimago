@@ -35,11 +35,11 @@ Available options:
 </ul>
 <h3>Step 3 : Call bookmark with name property</h3>
 <pre>
-	&lt;img name="bookmark name" /&gt;        
+	<img name="bookmark name" />        
         
-    &lt;a name="bookmark name"&gt;Any Website&lt;/a&gt;
-    &lt;script name="bookmark name"&gt;&lt;/script&gt;
-    &lt;link rel="linkrel" name="bookmark name" type="linktype"/&gt;
+	<a name="bookmark name">Any Website</a>;
+	<script name="bookmark name"></script>
+	<link rel="linkrel" name="bookmark name" type="linktype"/>
 </pre>
 
 
