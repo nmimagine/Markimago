@@ -1,8 +1,8 @@
 <h1>Markimago - Linked Easily</h1>
 
-Markimago allows you to LOAD RESOURCES for your page only in one time. Then, when you want to apply them with
-THEIR TAGS, you could only type the bookmark name you defined before. So you don't need to type 
-the urls 2, 3, 4, or more times, just type it once time, then call the bookmark. Simply awesome.
+Markimago allows you to <b>load resources</b> for your page only in one time. Then, when you want to apply them with
+their <b>tags</b>, you could only type the bookmark name you defined before. So you don't need to type 
+the urls multiple times. Just type it once time, then call the bookmark. Simply awesome.
 
 <h1>Usage</h1>
 
@@ -45,6 +45,3 @@ Available options:
 
 <p>That's all. For example, you can read the <b>index.html</b>
 source code. Thanks!</p>
-
-<br />
-Made by : <b>Nathaniel Mannawi</b>
