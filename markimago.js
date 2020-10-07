@@ -1,9 +1,8 @@
 /*
  * Markimago
- * Simplified RESOURCES loader
+ * Simplified resources loader
  *
  * By : Nathaniel Mannawi (nmimagine)
- * Copyright (c) 2012
  */
 var Markimago = {
     createMarker : function(marks){
